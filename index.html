@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EE07S040WY"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-EE07S040WY');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==================== ICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/loader.css">
+
+    <title> Md Juel Rana - Portfolio</title>
+</head>
+
+<body>
+    <div class="loader-body" id="loader">
+        <div class="loader"></div>
+    </div>
+    <script type='text/javascript'>
+        document.body.onload = function () {
+            setTimeout(function () {
+                var preloader = document.getElementById('loader');
+                if (!preloader.classList.contains('done')) {
+                    preloader.classList.add('done');
+                }
+            }, 1000)
+        }
+    </script>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo"> Md Juel Rana</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i> Skills
+                        </a>
+                    </li>
+                   
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">
+                            <i class="uil uil-award-alt nav__icon"></i> Projects
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i> Contact
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+            <div class="nav__btns">
+                <!-- Theme Change Button -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    
+
+                    <div class="home__image">
+                        <img src="/images/home.png" alt="">
+
+                      
+                        
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Hi, I'm  Md Juel Rana</h1>
+                        <h3 class="home__subtitle">Computer Science Student</h3>
+                        <p class="home__description">
+                            A final-year Master of Science student at Banaras Hindu University, Varanasi.
+                        </p>
+                        <a href="#contact" class="button button--flex">
+                            Contact Me <i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My Introduction</span>
+
+            <div class="about__container container grid">
+                <img src="/images/home.png" alt="" class="about__img"> 
+                
+
+                <div class="about__data">
+                    <p class="about__description">
+                        Hi, I am Md Julel Rana
+Computer Science  Engineering student  at NBIU..
+Working As a computer operatot at National Heart foundation Hospital & Research Institute, Rajshahi.
+Diploma Engineering in Computer Technology at Dinajpur Polytechnic Institute.
+                    </p>
+                    <div class="about__buttons">
+                        <a download="" href="#" class="button button--flex">
+                            Download CV<i class="uil uil-download-alt button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My Technical Knowledge</span>
+            <div class="skills__container container grid">
+
+                <!--==================== SKILL 1 ====================-->
+                <div class="skills__content">
+                    <i class="uil uil-book-open skills__icon"></i>
+                    <h3 class="skills__title">Coursework</h3>
+                    <p class="skills__description">
+                        Artificial Intelligence, Machine Learning, Neural Networks, Text Mining
+                    </p>
+
+                    <span class="button button--flex button--small button--link education__button" id="skills__button">
+                        View More <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+                    
+                    <div class="education__modal" id="skills__modal">
+                        <div class="skills__modal-content">
+                            <h4 class="skills__modal-title">Coursework</h4>
+                            <i class="uil uil-times education__modal-close"></i>
+                            <div class="two-columns">
+                                <ul class="skills__modal-skillss grid column">
+                                    <li class="skills__modal-skills">
+                                        <p>
+                                            <i class="uil uil-check-circle education__modal-icon"></i>
+                                            Artificial Intelligence
+                                        </p>
+                                    </li>
+                                    <li class="skills__modal-skills">
+                                        <p>
+                                            <i class="uil uil-check-circle education__modal-icon"></i>
+                                            Neural Networks
+                                        </p>
+                                    </li>
+                                    <li class="skills__modal-skills">
+                                        <p>
+                                            <i class="uil uil-check-circle education__modal-icon"></i>
+                                            Soft Computing
+                                        </p>
+                                    </li>
+                                    <li class="skills__modal-skills">
+                                        <p>
+                                            <i class="uil uil-check-circle education__modal-icon"></i>
+                                            Data Structures
+                                        </p>
+                                    </li>
+                                    <li class="skills__modal-skills">
+                                        <p>
+                                            <i class="uil uil-check-circle education__modal-icon"></i>
+                                            Probability & Statistics
+                                        </p>
+                                    </li>
+                                    <li class="skills__modal-skills">
+                                        <p>
+                                            <i class="uil uil-check-circle education__modal-icon"></i>
+                                            Calculus
+                                        </p>
+                                    </li>
+                                    <li class="skills__modal-skills">
+                                        <p>
+                                            <i class="uil uil-check-circle education__modal-icon"></i>
+                                            Numerical Methods
+                                        </p>
+                                    </li>
+                                    <li class="skills__modal-skills">
+                                        <p>
+                                            <i class="uil uil-check-circle education__modal-icon"></i>
+                                            Operating Systems
+                                        </p>
+                                    </li>
+                                    <li class="skills__modal-skills">
+                                        <p>
+                                            <i class="uil uil-check-circle education__modal-icon"></i>
+                                            Network Programming
+                                        </p>
+                                    </li>
+                                    <li class="skills__modal-skills">
+                                        <p>
+                                            <i class="uil uil-check-circle education__modal-icon"></i>
+                                            Interne of Things
+                                        </p>
+                                    </li>
+                                    <li class="skills__modal-skills">
+                                        <p>
+                                            <i class="uil uil-check-circle education__modal-icon"></i>
+                                            Theory of Computation
+                                        </p>
+                                    </li>
+                                    <li class="skills__modal-skills">
+                                        <p>
+                                            <i class="uil uil-check-circle education__modal-icon"></i>
+                                            Computer Architecture
+                                        </p>
+                                    </li>
+                                    <li class="skills__modal-skills">
+                                        <p>
+                                            <i class="uil uil-check-circle education__modal-icon"></i>
+                                            Linux Programming
+                                        </p>
+                                    </li>
+                                    <li class="skills__modal-skills">
+                                        <p>
+                                            <i class="uil uil-check-circle education__modal-icon"></i>
+                                            Information Security
+                                        </p>
+                                    </li>
+                                </ul>
+
+                                <ul class="skills__modal-skillss grid column">
+                                    <li class="skills__modal-skills">
+                                        <p>
+                                            <i class="uil uil-check-circle education__modal-icon"></i>
+                                            Machine Learning
+                                        </p>
+                                    </li>
+                                    <li class="skills__modal-skills">
+                                        <p>
+                                            <i class="uil uil-check-circle education__modal-icon"></i>
+                                            Text Mining
+                                        </p>
+                                    </li>
+                                    <li class="skills__modal-skills">
+                                        <p>
+                                            <i class="uil uil-check-circle education__modal-icon"></i>
+                                            DBMS
+                                        </p>
+                                    </li>
+                                    <li class="skills__modal-skills">
+                                        <p>
+                                            <i class="uil uil-check-circle education__modal-icon"></i>
+                                            Analysis of Algorithms
+                                        </p>
+                                    </li>
+                                    <li class="skills__modal-skills">
+                                        <p>
+                                            <i class="uil uil-check-circle education__modal-icon"></i>
+                                            Discrete Mathematics
+                                        </p>
+                                    </li>
+                                    <li class="skills__modal-skills">
+                                        <p>
+                                            <i class="uil uil-check-circle education__modal-icon"></i>
+                                            Algebra
+                                        </p>
+                                    </li>
+                                    <li class="skills__modal-skills">
+                                        <p>
+                                            <i class="uil uil-check-circle education__modal-icon"></i>
+                                            LPP
+                                        </p>
+                                    </li>
+                                    <li class="skills__modal-skills">
+                                        <p>
+                                            <i class="uil uil-check-circle education__modal-icon"></i>
+                                            Computer Networks
+                                        </p>
+                                    </li>
+                                    <li class="skills__modal-skills">
+                                        <p>
+                                            <i class="uil uil-check-circle education__modal-icon"></i>
+                                            Software Engineering
+                                        </p>
+                                    </li>
+                                    <li class="skills__modal-skills">
+                                        <p>
+                                            <i class="uil uil-check-circle education__modal-icon"></i>
+                                            Mobile AdHoc Networks
+                                        </p>
+                                    </li>
+                                    <li class="skills__modal-skills">
+                                        <p>
+                                            <i class="uil uil-check-circle education__modal-icon"></i>
+                                            Compiler Design
+                                        </p>
+                                    </li>
+                                    <li class="skills__modal-skills">
+                                        <p>
+                                            <i class="uil uil-check-circle education__modal-icon"></i>
+                                            Computer Graphics
+                                        </p>
+                                    </li>
+                                    <li class="skills__modal-skills">
+                                        <p>
+                                            <i class="uil uil-check-circle education__modal-icon"></i>
+                                            Image Processing
+                                        </p>
+                                    </li>
+                                    <li class="skills__modal-skills">
+                                        <p>
+                                            <i class="uil uil-check-circle education__modal-icon"></i>
+                                            Internet Technologies
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <!--==================== SKILL 2 ====================-->
+                <div class="skills__content">
+                    <i class="uil uil-arrow skills__icon"></i>
+                    <h3 class="skills__title">General</h3>
+                    <p class="skills__description">
+                        Python, C/C++, Java, Git/GitHub, SQL, 
+                    </p>
+                </div>
+                
+                <!--==================== SKILL 3 ====================-->
+                <div class="skills__content">
+                    <i class="uil uil-brain skills__icon"></i>
+                    <h3 class="skills__title">Data Science & <br> Machine Learning</h3>
+                    <p class="skills__description">
+                        pandas, numpy, scikit-learn, NLTK, OpenCV, matplotlib, seaborn
+                    </p>
+                </div>
+                
+                <!--==================== SKILL 4 ====================-->
+                <div class="skills__content">
+                    <i class="uil uil-globe skills__icon"></i>
+                    <h3 class="skills__title">Web Technologies</h3>
+                    <p class="skills__description">
+                        HTML5, CSS, JavaScript, PHP
+                    </p>
+                </div>
+                
+                <!--==================== SKILL 5 ====================-->
+                <div class="skills__content">
+                    <i class="uil uil-laptop skills__icon"></i>
+                    <h3 class="skills__title">IDEs</h3>
+                    <p class="skills__description">
+                        VS Code, PyCharm, IntelliJ IDEA, Eclipse, Jupyter, Google Colab, Anaconda
+                    </p>
+                </div>
+                
+                <!--==================== SKILL 6 ====================-->
+                <div class="skills__content">
+                    <i class="uil uil-desktop-alt skills__icon"></i>
+                    <h3 class="skills__title">Platform</h3>
+                    <p class="skills__description">
+                        Linux, Windows
+                    </p>
+                </div>
+            </div>
+        </section>
+
+       
+        <!--==================== PROJECTS ====================-->
+        <section class="projects section" id="projects">
+            <h2 class="section__title">Projects</h2>
+            <span class="section__subtitle">Most Recent project</span>
+
+            <div class="projects__container container grid">
+                
+                <!--==================== PROJECT 2 ====================-->
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="/images/textSummarization.png" alt="Project 2" class="projects__img">
+
+                        <!-- <a href="https://sentiment-analysis-twitter.streamlit.app/" target="_blank" class="projects__button button">
+                            <i class="uil uil-external-link-alt button__icon"></i>
+                        </a> -->
+                    </div>
+                    <div class="projects__content">
+                        <br>
+                        <!-- <h3 class="projects__subtitle">Python, scikit-learn, Pandas, NLTK, Streamlit</h3> -->
+                        <h2 class="projects__title">A Comparitive Study of Text Summarization Techniques</h2>
+                        <p class="projects__description">This project focuses on evaluating six abstractive summarization 
+                            models (Seq2Seq with Attention, BERTSUMABS, BART, T5, PEGASUS, XLNet) on benchmark datasets 
+                            (CNN/DailyMail, XSum, Gigaword). The models were analyzed using ROUGE and BLEU metrics to 
+                            measure fluency, coherence, and content accuracy.
+                        </p>
+                    </div>
+                    <div class="projects__buttons">
+                        <a href="https://github.com/ Md Juel Ranadey01/Minor-Project.git" target="_blank" class="projects__link">
+                            <i class="uil uil-github-alt"></i> GitHub Repo
+                        </a>
+                        <!-- <a href="https://sentiment-analysis-twitter.streamlit.app/" target="_blank" class="projects__link">
+                            <i class="uil uil-link-alt"></i> Live
+                        </a> -->
+                    </div>
+                </article>
+
+                <!--==================== PROJECT 1 ====================-->
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="/images/sentimentAnalysis.png" alt="Project 1" class="projects__img">
+
+                        <a href="https://sentiment-analysis-twitter.streamlit.app/" target="_blank" class="projects__button button">
+                            <i class="uil uil-external-link-alt button__icon"></i>
+                        </a>
+                    </div>
+                    <div class="projects__content">
+                        <br>
+                        <!-- <h3 class="projects__subtitle">Python, scikit-learn, Pandas, NLTK, Streamlit</h3> -->
+                        <h2 class="projects__title">Sentiment Analysis of Tweets</h2>
+                        <p class="projects__description">This project involves Natural Language Processing (NLP) 
+                            to perform sentiment analysis by classifying tweets as positive or negative. 
+                            Machine learning models are employed for classification, with additional focus on 
+                            text mining, text analysis, data analysis, and data visualization. 
+                        </p>
+                    </div>
+                    <div class="projects__buttons">
+                        <a href="https://github.com/ Md Juel Ranadey01/Sentiment-Analysis-Twitter" target="_blank" class="projects__link">
+                            <i class="uil uil-github-alt"></i> GitHub Repo
+                        </a>
+                        <a href="https://sentiment-analysis-twitter.streamlit.app/" target="_blank" class="projects__link">
+                            <i class="uil uil-link-alt"></i> Live
+                        </a>
+                    </div>
+                </article>
+                
+                <!--==================== PROJECT 2 ====================-->
+                <!-- <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="/images/Untitled.jpeg" alt="Project 2" class="projects__img">
+
+                        <a href="#" class="projects__button button">
+                            <i class="uil uil-external-link-alt button__icon"></i>
+                        </a>
+                    </div>
+                    <div class="projects__content"> -->
+                        <!-- <h3 class="projects__subtitle"></h3> -->
+                        <!-- <h2 class="projects__title">Project 2</h2>
+                        <p class="projects__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Ipsum magni alias autem ratione beatae dolore repellendus optio deserunt temporibus 
+                            saepe omnis, perspiciatis ad tempore sunt distinctio, pariatur non harum eligendi!
+                        </p>
+                    </div>
+                    <div class="projects__buttons">
+                        <a href="#" target="_blank" class="projects__link">
+                            <i class="uil uil-github-alt"></i> GitHub Repo
+                        </a>
+                        <a href="#" target="_blank" class="projects__link">
+                            <i class="uil uil-link-alt"></i> Live
+                        </a>
+                    </div>
+                </article> -->
+            </div>
+        </section>
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in Touch</span>
+
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h3 class="contact__title">Contact Details</h3>
+
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class="uil uil-fast-mail contact__card-icon"></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data"> mdjuelranacse@gmail.com</span>
+                            <a href="mailto: mdjuelranacse@gmail.com" target="_blank" class="contact__button">
+                                Write Me <i class="uil uil-arrow-right contact__button-icon"></i>
+                            </a>
+                        </div>
+                        
+                        <div class="contact__card">
+                            <i class="uil uil-location-point contact__card-icon"></i>
+                            <h3 class="contact__card-title">Location</h3>
+                            <span class="contact__card-data">Bhatritto  Tower, Terokhadia Paschimpara, Rajpara, Rajshahi</span>
+                            <a href="https://maps.google.com/?q=23.763864,85.818746&entry=gps" target="_blank" class="contact__button">
+                                View on Map <i class="uil uil-arrow-right contact__button-icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact__content">
+                    <h3 class="contact__title">Write me your message</h3>
+
+                    <form class="contact__form">
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Name</label>
+                            <input type="text" name="user_name" required placeholder="Enter your name" class="contact__form-input">
+                        </div>
+                        
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Mail</label>
+                            <input type="email" name="user_email" required placeholder="Enter your email" class="contact__form-input">
+                        </div>
+                        
+                        <div class="contact__form-div contact__form-area">
+                            <label for="" class="contact__form-tag">Message</label>
+                            <textarea name="user_message" id="" cols="30" rows="10" required placeholder="Enter your message" class="contact__form-input"></textarea>
+                        </div>
+
+                        <button class="contact__form-button button button--flex">
+                            Send Message <i class="uil uil-message button__icon"></i>
+                        </button>
+                        <p class="contact__message" id="contact__message"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title"> Md Juel Rana</h1>
+                    <span class="footer__subtitle">BSC. in Computer Science</span>
+                </div>
+                <div class="footer__socials">
+                    <a href="" target="_blank" class="footer__social">
+                        <i class="uil uil-twitter"></i>
+                    </a>
+                  
+                    <a href="" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="footer__copy">&#169; <a href="#" class=""> Md Juel </a>. All
+                rights reserved</p>
+        </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+</body>
+
+</html>
